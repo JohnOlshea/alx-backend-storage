@@ -1,13 +1,14 @@
-0x00. MySQL advanced
-
-0. We are all unique!
+0. List all databases
 mandatory
-Write a SQL script that creates a table users following these requirements:
+Write a script that lists all databases in MongoDB.
 
-With these attributes:
-id, integer, never null, auto increment and primary key
-email, string (255 characters), never null and unique
-name, string (255 characters)
-If the table already exists, your script should not fail
-Your script can be executed on any database
-Context: Make an attribute unique directly in the table schema will enforced your business rules and avoid bugs in your application
+1. Create a database
+mandatory
+Write a script that creates or uses the database my_db:
+
+2. Insert document
+mandatory
+Write a script that inserts a document in the collection school:
+
+The document must have one attribute name with value “Holberton school”
+The database name will be passed as option of mongo command
